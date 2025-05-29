@@ -1,0 +1,39 @@
+body {
+  font-family: tahoma,lotus,nest,arial, Times, serif;
+  background-color:#385366;
+  font-size:14px;
+  color:#FFFFFF;
+  	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+td {
+	font-family: tahoma,lotus,nest,arial, Times, serif;
+	font-size:14px;
+}
+
+th {
+	font-family: tahoma,lotus,nest,arial, Times, serif;
+	font-size:12px;
+}
+
+a.one {font-family:tahoma,lotus,nest,arial;
+	font-size:14px;
+	color:#FF9900;
+	text-decoration:none;
+	}
+a.one:visited {color:##FF9900}
+a.one:Hover {color:##FF9900}
+a.one:Active {color:#999999}
+
+a.two {font-family:tahoma,lotus,nest,arial;
+	font-size:10px;
+	color:#FFFFFF;
+	}
+a.two:visited {color:#CCCCCC}
+a.two:Hover {color:#0000FF}
+a.two:Active {color:#DDDDDD}
+
+td.current {color:#FFFFFF}

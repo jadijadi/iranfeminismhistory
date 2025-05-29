@@ -1,0 +1,1737 @@
+body {
+  margin: 0;
+  border: 0;
+}
+
+#wrapper {
+  margin: 0 auto;
+  width: 832px;
+  position: relative; 
+  top: 0px;
+  z-index: 1;
+}
+
+#wrapper-archive {
+  margin: 0 auto;
+  width: 400px;
+  position: relative; 
+  top: 0px;
+  z-index: 1;
+}
+
+/*
+ * [header]
+ */
+ 
+#blackbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 58px;
+  background: #1f1f1d;
+  z-index: 0;
+}
+
+#zanestan {
+  position: absolute;
+  top: 10px;
+  left: 639px;
+  width: 174px;
+  height: 58px;
+  background: url('images/zanestan.gif') no-repeat;
+}
+
+#zanestan-archive {
+  position: absolute;
+  top: 10px;
+  left: 250px;
+  width: 174px;
+  height: 58px;
+  background: url('images/zanestan.gif') no-repeat;
+}
+
+#zanestan a, #zanestan-archive a {
+  display: block;
+  width: 174px;
+  height: 58px;
+}
+
+#home{
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 81px;
+  height: 24px;
+  background: url('http://www.zanestan.org/herland/home.jpg') no-repeat;
+}
+
+#home a {
+ display: block;
+  width: 81px;
+  height: 24px;
+}
+
+#about {
+  position: absolute;
+  top: 30px;
+  left: 81px;
+  width: 81px;
+  height: 24px;
+  background: url('images/about.gif') no-repeat;
+}
+
+#about a {
+  display: block;
+  width: 81px;
+  height: 24px;
+}
+
+#archive {
+  position: absolute;
+  top: 30px;
+  left: 162px;
+  width: 80px;
+  height: 24px;
+  background: url('images/archive.gif') no-repeat;
+}
+
+#archive a {
+  display: block;
+  width: 80px;
+  height: 24px;
+}
+
+#links {
+  position: absolute;
+  top: 32px;
+  left: 252px;
+  width: 21px;
+  height: 19px;
+  background: url('images/links.gif') no-repeat;
+}
+
+#links a {
+  display: block;
+  width: 21px;
+  height: 19px;
+}
+
+#seperator {
+  position: absolute;
+  top: 45px;
+  left: 282px;
+  width: 2px;
+  height: 6px;
+  font-size: 1px;
+  background: url('images/seperator.gif') no-repeat;
+}
+
+#contact {
+  position: absolute;
+  top: 32px;
+  left: 290px;
+  width: 33px;
+  height: 19px;
+  background: url('images/contact.gif') no-repeat;
+}
+
+#contact a {
+  display: block;
+  width: 33px;
+  height: 19px;
+}
+
+/*
+ * [/header]
+ */
+
+/*
+ * [attension]
+ */
+ 
+#attension {
+  position: absolute;
+  top: 63px;
+  left: 254px;
+  width: 370px;
+  height: 70px;
+  font: bold 11pt 'times new roman';
+  color: #222;
+}
+
+#attension div {
+  padding-top: 30px;
+  text-align: center;
+  direction: rtl;
+}
+
+#attension a {
+  text-decoration: none;
+  color: #333;
+}
+
+#attension a:hover {
+  color: #f90;
+}
+
+/*
+ * [/attension]
+ */
+
+/*
+ * [saladbar,25thclock]
+ */
+ 
+#saladbar-25thclock {
+  position: absolute;
+  top: 115px;
+  left: 496px;
+  width: 123px;
+  height: 10px;
+  font-size: 1px;
+  background: url('images/saladbar%2c25thclock.gif');
+  display: none;
+  visibility: hidden;
+}
+
+#saladbar a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 37px;
+  height: 10px;
+  font-size: 1px;
+  display: block;
+}
+
+#clock a {
+  position: absolute;
+  top: 0;
+  left: 62px;
+  width: 44px;
+  height: 10px;
+  font-size: 1px;
+  display: block;
+}
+
+/*
+ * [/saladbar,25thclock]
+ */
+
+/*
+ * [news]
+ */
+
+#news {
+  position: absolute;
+  top: 230px;
+  left: 748px;
+  width: 84px;
+  height: 22px;
+  background: url('images/news.gif') no-repeat;
+}
+
+#newsbox {
+  position: absolute;
+  top: 250px;
+  left: 627px;
+  width: 205px;
+  height: 341px;
+  background: url('http://www.zanestan.org/herland/mainnewsbox.gif');
+  font: normal 8pt 'tahoma';
+  direction: rtl;
+  }
+
+#newsbox div {
+  color: #fffffd;
+}
+
+#newsbox ul {
+  list-style-image: url('images/newsbullet.gif');
+  margin: 0;
+  padding: 0;
+  padding-right: 20px;
+}
+
+#newsbox li {
+  margin-bottom: 5px;
+}
+
+#newsbox li a {
+  color: #cbcdc8;
+  text-decoration: none;
+}
+
+#newsarchive {
+  position: absolute;
+  top: 261px;
+  left: 650px;
+  width: 29px;
+  height: 5px;
+  font-size: 1px;
+  z-index: 5;
+}
+
+#newsarchive a {
+  display: block;
+  width: 29px;
+  height: 5px;
+  background: url('images/empty.gif');
+}
+
+#newsrss {
+  position: absolute;
+  top: 261px;
+  left: 690px;
+  width: 14px;
+  height: 5px;
+  font-size: 1px;
+  z-index: 5;
+}
+
+#newsrss a {
+  display: block;
+  width: 14px;
+  height: 5px;
+  background: url('images/empty.gif');
+}
+
+#Scroller3 {
+  position: relative;
+  width: 205px;
+  height: 341px;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.Scroller3-Container {
+  position: absolute;
+  text-align: justify;
+}
+
+#Scrollbar3-Container {
+  position: absolute;
+  top: 300px;
+  left: 837px;
+}
+
+.Scrollbar3-Track {
+  width: 5px;
+  height: 283px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.Scrollbar3-Handle {
+  position: absolute;
+  width: 5px;
+  height: 23px;
+}
+
+/*
+ * [/news]
+ */
+
+/*
+ * [neveshteha]
+ */
+
+#neveshteha {
+       position:absolute;
+       top: 626px;
+       left: 626px;       
+       width:190px;
+       height:121px;
+       background-image:url('http://www.zanestan.org/herland/neveshteha.gif');
+       background-repeat:no-repeat;
+       padding-top:40px;
+       padding-left:5px;
+       padding-right:10px;
+       padding-bottom:20px;
+       font-size:11px;
+       font-family:Tahoma;
+       direction:rtl
+}
+
+#neveshteha a {
+  color: #808080;
+  text-decoration: none;
+}
+
+#neveshtehaarchive {
+       padding-top:40px;
+       padding-left:5px;
+       padding-right:10px;
+       padding-bottom:20px;
+       font-size:11px;
+       font-family:Tahoma;
+       direction:rtl
+}
+
+#neveshtehaarchive a {
+  color: #808080;
+  text-decoration: none;
+}
+
+/*
+ * [/neveshteha]
+ */
+
+/*
+ * [poster]
+ */
+
+#poster {
+  position: absolute;
+  top: 138px;
+  left: 254px;
+  width: 370px;
+  height: 291px;
+  background: url('images/poster.gif') no-repeat;
+  padding-left: 1px;
+  padding-top: 1px;
+}
+
+#poster img {
+  border: 0 none;
+}
+
+/*
+ * [/poster]
+ */
+
+/*
+ * [search]
+ */
+
+#searchbutton input {
+  position: absolute;
+  top: 112px;
+  left: 33px;
+  width: 46px;
+  height: 22px;
+  background: transparent url('images/searchbutton.gif') no-repeat;
+  font-size: 0;
+  border: 0 none;
+}
+
+#searchbox {
+  position: absolute;
+  top: 112px;
+  left: 82px;
+  width: 168px;
+  height: 22px;
+  background: url('images/searchbox.gif') no-repeat;
+}
+
+#searchbox input {
+  position: absolute;
+  top: 3px;
+  left: 4px;
+  background: transparent;
+  border: 0 none;
+  font: normal 8pt 'tahoma';
+  width: 150px;
+  padding: 0 5px;
+  direction: rtl;
+}
+
+/*
+ * [/search]
+ */
+
+/*
+ * [serious]
+ */
+
+#serious {
+  position: absolute;
+  top: 138px;
+  left: 0;
+  width: 250px;
+  height: 36px;
+  background: url('images/serious.gif') no-repeat;
+}
+
+#seriousbox {
+  position: absolute;
+  top: 174px;
+  left: 0;
+  width: 250px;
+  height: 252px;
+  background: url('http://www.zanestan.org/herland/seriousbox.gif') no-repeat;
+}
+
+#seriouscontent {
+  position: absolute;
+  top: 5px;
+  left: 23px;
+  width: 221px;
+  height: 235px;
+  direction: rtl;
+  text-align: justify;
+  font: normal 8pt 'tahoma';
+  overflow: hidden;
+}
+
+#seriouscontent ul {
+  list-style-image: url('images/seriousbulletie.gif');
+  margin: 0;
+  padding: 0;
+  padding-right: 20px;
+}
+
+head:first-child+body>html #seriouscontent ul {
+  list-style-image: url('images/seriousbulletff.gif');
+}
+
+#seriouscontent a {
+  text-decoration: none;
+  color: #49525b;
+}
+
+#seriouscontent a:hover {
+  color: #051017;
+}
+
+#seriouscontent li {
+  margin-bottom: 10px;
+  width: 200px;
+  text-align: justify;
+  direction: rtl;
+}
+
+#Scroller1 {
+  position: relative;
+  width: 221px;
+  height: 235px;
+  overflow: hidden;
+}
+
+.Scroller1-Container {
+  position: absolute;
+}
+
+#Scrollbar1-Container {
+  position: absolute;
+  top: 176px;
+  left: 3px;
+}
+
+.Scrollbar1-Track {
+  width: 12px;
+  height: 223px;
+  position: absolute;
+  top: 12px;
+  left: 0;
+}
+
+.Scrollbar1-Handle {
+  position: absolute;
+  width: 12px;
+  height: 11px;
+}
+
+.Scrollbar1-Up {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.Scrollbar1-Down {
+  position: absolute;
+  top: 235px;
+  left: 0;
+}
+
+/*
+ * [/serious]
+ */
+
+/*
+ * [neveshteha]
+ */
+
+
+/*
+ * [/neveshteha]
+ */
+
+
+/*
+ * [her]
+ */
+
+#herboxtop {
+  position: absolute;
+  top: 714px;
+  left: 0;
+  width: 250px;
+  height: 5px;
+  font-size: 1px;
+  background: url('images/herboxtop.gif') no-repeat;
+}
+
+#herboxbottom {
+  position: absolute;
+  top: 806px;
+  left: 0;
+  width: 250px;
+  height: 2px;
+  font-size: 1px;
+  background: url('images/herboxbottom.gif') no-repeat;
+}
+
+#herboxcontent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 87px;
+  background: #f8f8f8;
+}
+
+#herboxtitle {
+  position: absolute;
+  top: 6px;
+  left: 7px;
+  width: 34px;
+  height: 15px;
+  font-size: 1px;
+  background: url('images/herboxtitle.gif') no-repeat;
+  z-index: 2;
+}
+
+#herboxframe {
+  position: absolute;
+  top: 26px;
+  left: 1px;
+  width: 79px;
+  height: 55px;
+  background: #fff url('images/herboxframe.gif') no-repeat;
+}
+
+#herboximage {
+  position: absolute;
+  top: 29px;
+  left: 4px;
+  width: 73px;
+  height: 49px;
+}
+
+#hertitle {
+  position: absolute;
+  top: 31px;
+  left: 86px;
+  width: 162px;
+  font: bold 8pt 'verdana';
+  color: #cc8302;
+}
+
+#herbody {
+  position: absolute;
+  top: 47px;
+  left: 86px;
+  width: 162px;
+  height: 36px;
+  overflow: hidden;
+  font: normal 8pt 'trebuchet ms';
+  color: #48525b;
+  display: none;
+}
+
+#herbox {
+  display: block;
+  position: absolute;
+  top: 719px;
+  left: 0;
+  width: 250px;
+  height: 84px;
+  cursor: hand;
+  text-decoration: none;
+}
+
+#herbox img {
+  border: 0 none;
+}
+
+/*
+ * [/her]
+ */
+
+/*
+ * [city]
+ */
+
+#citytop {
+  position: absolute;
+  top: 438px;
+  left: 439px;
+  width: 185px;
+  height: 30px;
+  background: url('http://www.zanestan.org/herland/citytop.gif') no-repeat;
+}
+
+#citybottom {
+  position: absolute;
+  top: 621px;
+  left: 439px;
+  width: 185px;
+  height: 1px;
+  font-size: 1px;
+  background: url('images/citybottom.gif') no-repeat;
+}
+
+#citycontent {
+  position: absolute;
+  top: 468px;
+  left: 439px;
+  width: 185px;
+  height: 153px;
+  overflow: hidden;
+}
+
+.citybox {
+  display: block;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 185px;
+  height: 50px;
+  border-bottom: 1px solid #fff;
+  background: #eceeed;
+  font: normal 8pt 'tahoma';
+  z-index: 3;
+  text-decoration: none;
+  cursor: hand;
+}
+
+.citybox:hover {
+  background: #f0f0f0;
+}
+
+.citybox img {
+  border: 0 none;
+}
+
+.citybox .image {
+  position: absolute;
+  top: 0;
+  left: 138px;
+  width: 66px;
+  height: 50px;
+  border-left: 1px solid #fff;
+}
+
+.citybox .title {
+  color: #d38d98;
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 130px;
+  direction: rtl;
+  text-align: right;
+}
+
+.citybox .body {
+  color: #5a5859;
+  position: absolute;
+  top: 20px;
+  left: 5px;
+  width: 127px;
+  direction: rtl;
+  text-align: justify;
+  line-height: 1.1em;
+}
+
+#cityseperator {
+  position: absolute;
+  top: 351px;
+  left: 625px;
+  width: 1px;
+  height: 182px;
+  background: #e5e5e5;
+  font-size: 1px;
+}
+
+#Scroller2 {
+  position: relative;
+  width: 205px;
+  height: 153px;
+  overflow: hidden;
+}
+
+.Scroller2-Container {
+  position: absolute;
+}
+
+#Scrollbar2-Container {
+  position: absolute;
+  top: 280px;
+  left: 837px;
+}
+
+.Scrollbar2-Track {
+  width: 5px;
+  height: 153px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.Scrollbar2-Handle {
+  position: absolute;
+  width: 5px;
+  height: 23px;
+}
+
+
+/*
+ * [/city]
+ */
+
+/*
+ * [woman]
+ */
+
+#womantitle {
+  position: absolute;
+  top: 626px;
+  left: 439px;
+  width: 185px;
+  height: 25px;
+  background: url('images/womantitle.gif') no-repeat;
+}
+
+#woman {
+  position: absolute;
+  top: 651px;
+  left: 439px;
+  width: 185px;
+  height: 157px;
+  background: #f5f5f5;
+  font: normal 8pt 'tahoma';
+  text-decoration: none;
+  direction: rtl;
+  text-align: right;
+  cursor: hand;
+}
+
+#woman img {
+  border: 0 none;
+}
+
+/*
+#woman:hover {
+  background: #f0f0f0;
+}
+*/
+
+#womandotted {
+  position: absolute;
+  top: 79px;
+  left: 0;
+  width: 185px;
+  height: 5px;
+  background: #fff url('images/womandotted.gif') center center no-repeat;
+  z-index: 5;
+  font-size: 1px;
+}
+
+#woman #author {
+  color: #282a29;
+  position: absolute;
+  top: 85px;
+  left: 0;
+  width: 170px;
+  padding-right: 8px;
+  background: url('images/authorbullet.gif') center right no-repeat;
+}
+
+* html #woman #author {
+  background: url('images/authorbullet.gif') 70% right no-repeat;
+}
+
+#woman #body {
+  color: #686667;
+  position: absolute;
+  top: 103px;
+  left: 0;
+  width: 178px;
+  line-height: 1.3em;
+  padding-left: 2px;
+}
+
+#womanseperator {
+  position: absolute;
+  top: 735px;
+  left: 437px;
+  width: 1px;
+  height: 73px;
+  background: #e5e5e5;
+  font-size: 1px;
+}
+
+/*
+ * [/woman]
+ */
+
+/*
+ * [house]
+ */
+
+#housetitle {
+  position: absolute;
+  top: 626px;
+  left: 253px;
+  width: 185px;
+  height: 25px;
+  background: url('http://www.zanestan.org/herland/amar.gif') no-repeat;
+}
+
+#house {
+  position: absolute;
+  top: 651px;
+  left: 253px;
+  width: 183px;
+  height: 157px;
+  background: #f5f5f5;
+  font: normal 8pt 'tahoma';
+  text-decoration: none;
+  direction: rtl;
+  text-align: right;
+  cursor: hand;
+}
+
+#house img {
+  border: 0 none;
+}
+
+/*
+#house:hover {
+  background: #f0f0f0;
+}
+*/
+
+#housedotted {
+  position: absolute;
+  top: 79px;
+  left: 0;
+  width: 185px;
+  height: 5px;
+  background: #fff url('images/housedotted.gif') center center no-repeat;
+  z-index: 5;
+  font-size: 1px;
+}
+
+#house #author {
+  color: #282a29;
+  position: absolute;
+  top: 85px;
+  left: 0;
+  width: 170px;
+  padding-right: 8px;
+  background: url('images/authorbullet.gif') center right no-repeat;
+}
+
+* html #house #author {
+  background: url('images/authorbullet.gif') 70% right no-repeat;
+}
+
+#house #body {
+  color: #686667;
+  position: absolute;
+  top: 103px;
+  left: 0;
+  width: 178px;
+  line-height: 1.3em;
+  padding-left: 2px;
+}
+
+#houseseperator {
+  position: absolute;
+  top: 626px;
+  left: 251px;
+  width: 1px;
+  height: 182px;
+  background: #e5e5e5;
+  font-size: 1px;
+}
+
+/*
+ * [/house]
+ */
+
+/*
+ * [statistix]
+ */
+
+#statistixtitle {
+  position: absolute;
+  top: 438px;
+  left: 253px;
+  width: 185px;
+  height: 25px;
+  background: url('http://www.zanestan.org/herland/housetitle.gif') no-repeat;
+}
+
+#statistixdotted {
+  position: absolute;
+  top: 463px;
+  left: 253px;
+  width: 185px;
+  height: 5px;
+  font-size: 1px;
+  background: #fff url('images/statistixdotted.gif') center center no-repeat;
+}
+
+#statistixcontent {
+  position: absolute;
+  top: 468px;
+  left: 253px;
+  width: 185px;
+  height: 144px;
+}
+
+.statistixbox {
+  display: block;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 185px;
+  height: 75px;
+  border-bottom: 2px solid #fff;
+  background: #f4f4f6;
+  font: normal 8pt 'tahoma';
+  z-index: 3;
+  text-decoration: none;
+  cursor: hand;
+}
+
+/*
+.statistixbox:hover {
+  background: #f0f0f0;
+}
+*/
+
+.statistixbox img {
+  border: 0 none;
+}
+
+.statistixbox .image {
+  position: absolute;
+  top: 0;
+  left: 106px;
+  width: 75px;
+  height: 71px;
+  border-left: 1px solid #fff;
+}
+
+.statistixbox .title {
+  color: #282a29;
+  position: absolute;
+  top: 5px;
+  left: 3px;
+  width: 95px;
+  direction: rtl;
+  text-align: right;
+  padding-right: 8px;
+  background: url('images/authorbullet.gif') center right no-repeat;
+}
+
+.statistixbox .body {
+  color: #676968;
+  position: absolute;
+  top: 20px;
+  left: 3px;
+  width: 101px;
+  direction: rtl;
+  text-align: justify;
+  line-height: 1.1em;
+}
+
+* html .statistixbox .title {
+  background: url('images/authorbullet.gif') 70% right no-repeat;
+}
+
+/*
+ * [/statistix]
+ */
+
+/*
+ * [newsletter]
+ */
+
+#newsletterbox {
+  position: absolute;
+  top: 826px;
+  left: 641px;
+  width: 190px;
+  height: 114px;
+  background: url('images/newsletterbox.gif') no-repeat;
+}
+
+#newsletter {
+  position: absolute;
+  top: 826px;
+  left: 641px;
+  width: 186px;
+  height: 39px;
+  background: url('images/newsletter.gif') no-repeat;
+}
+
+#newsletterinput {
+  position: absolute;
+  top: 883px;
+  left: 659px;
+  width: 166px;
+  height: 20px;
+  background: transparent url('images/newsletterinput.gif');
+}
+
+#newsletterinput input {
+  position: absolute;
+  top: 1px;
+  border: 0 none;
+  direction: ltr;
+  text-align: left;
+  padding: 0 8px;
+  font: normal 8pt 'trebuchet ms';
+  width: 150px;
+  background: transparent;
+}
+
+#newsletterbutton {
+  position: absolute;
+  top: 908px;
+  left: 661px;
+  width: 65px;
+  height: 22px;
+  background: url('images/newsletterbutton.gif') no-repeat;
+}
+
+/*
+ * [/newsletter]
+ */
+
+/*
+ * [cwb]
+ */
+
+#cwb {
+  position: absolute;
+  top: 820px;
+  left: 253px;
+  width: 35px;
+  height: 120px;
+  background: #292927 url('images/cwb.gif') no-repeat;
+}
+
+/*
+#cwbdotted {
+  position: absolute;
+  top: 820px;
+  left: 454px;
+  width: 1px;
+  height: 120px;
+  font-size: 1px;
+  background:url('images/cwbdotted.gif') no-repeat;
+  z-index: 4;
+}
+*/
+
+#cwbc {
+  position: absolute;
+  top: 820px;
+  left: 288px;
+  width: 336px;
+  height: 120px;
+  background: #292927;
+  font: normal 8pt 'tahoma';
+  direction: rtl;
+  text-align: justify;
+  color: #808080;
+  overflow: hidden;
+}
+
+/*
+#hold  { 
+  position: relative;
+  overflow: hidden;
+  width: 336px;
+  height: 120px;
+  z-index: 100;
+}
+
+#wn  { 
+  position: absolute; 
+  left: 0;
+  top: 0; 
+  width: 336px;
+  height: 120px; 
+  clip: rect(0px, 336px, 120px, 0px); 
+  overflow: hidden;  
+  z-index: 1; 
+}
+
+#lyr1  { 
+  position: absolute;
+  visibility: hidden; 
+  left: 0;
+  top: 0; 
+  z-index: 1; 
+}
+*/
+
+td {
+  width: 168px;
+  vertical-align: middle;
+  text-align: center;
+} 
+ 
+td a {
+  display: block;
+  width: 152px;
+  height: 120px;
+  text-decoration: none;
+  color: #808281;
+  padding: 9px 8px 0 8px;
+}
+
+td a img {
+  border: 3px solid #222220;
+}
+
+td a div {
+  text-align: justify;
+}
+
+#leftarrow {
+  position: absolute;
+  top: 750px;
+  left: 297px;
+  width: 7px;
+  height: 6px;
+  font-size: 1px;
+}
+
+#leftarrow img {
+  border: 0 none;
+}
+
+#rightarrow {
+  position: absolute;
+  top: 750px;
+  left: 307px;
+  width: 7px;
+  height: 6px;
+  font-size: 1px;
+}
+
+#rightarrow img {
+  border: 0 none;
+}
+
+#cwbc a {
+  display: block;
+  width: 150px;
+  height: 103px;
+  text-decoration: none;
+  color: #808281;
+  padding: 9px 8px 0 8px;
+  float: left;
+  text-align: center;
+}
+
+#cwbc img {
+  border: 3px solid #222220;
+}
+
+#cwbc div {
+  text-align: justify;
+}
+/*
+ * [/cwb]
+ */
+
+.sotitr {
+ border-width: 5px 0px 0px 0px;
+ width: 200px;
+ background-color: #f4f4f4;
+ border-top-style: solid;
+ font-family: Tahoma;
+ font-size: 11px;
+ float: left;
+ text-align: justify; 
+ direction: rtl;
+ border-top-color: #000000;
+ padding: 5px
+}
+
+
+#boxlogo {
+         position:absolute;
+         top: 820px;
+         left: 0;
+         width: 234px;
+         height: 90px;
+         padding-top:30px;
+         padding-left:15px;
+         background-color:#f8f8f8;
+         border:1px #f8f8f8 solid
+}
+
+#boxlogo img {
+         border:1px #000000 solid
+}
+
+
+/*
+ * [weblog]
+ */
+ 
+#weblog {
+  text-decoration: none;
+  cursor: hand;
+}
+
+#weblogc {
+       position: absolute;
+        top: 438px;
+        left: 0;       
+       width:247px;
+       height:272px;
+       background-image:url('http://www.zanestan.org/herland/bg_blogbox.gif');
+background-repeat:no-repeat;
+       font: normal 8pt 'tahoma';       
+border:1px #d4d4d4 solid;
+       background-color:#f7f9f8;
+       direction: rtl;
+  text-align: justify;  
+}
+#weblog #title {
+       width:220px;
+       color:#462d02;
+       padding-bottom:5px;
+       padding-right:20px;
+       direction:rtl;
+       text-align:justify;
+       padding-top:30px
+}
+#weblog #body {
+       width:220px;
+       color:#525659;
+       padding-bottom:5px;
+       padding-right:20px;
+       direction:rtl;
+       text-align:justify
+}
+
+/*
+ * [/weblog]
+ */
+
+/*
+ * [copyright]
+ */
+
+#ultrapain {
+  position: absolute;
+  top: 960px;
+  left: 0;
+  width: 624px;
+  height: 55px;
+  border-top: 1px solid #ccc;
+  background: #eee;
+}
+
+#ultrapain div {
+  position: absolute;
+  top: 18px;
+  left: 12px;
+  width: 142px;
+  height: 20px;
+  font-size: 1px;
+  background: url('images/ultrapain.gif') no-repeat;
+  padding-bottom: 15px;
+}
+
+#ultrapain div a {
+  display: block;
+  width: 142px;
+  height: 20px;
+}
+
+#newwindow {
+  position: absolute;
+  top: 960px;
+  left: 627px;
+  width: 205px;
+  height: 55px;
+  border-top: 1px solid #ccc;
+  background: #eee;
+}
+
+#newwindow div {
+  position: absolute;
+  top: 27px;
+  left: 50px;
+  width: 129px;
+  height: 7px;
+  font-size: 1px;
+  background: url('images/newwindow.gif') no-repeat;
+}
+
+#newwindow input {
+  position: absolute;
+  top: 20px;
+  left: 25px;
+}
+
+/*
+ * [/copyright]
+ */
+
+/*
+ * [text]
+ */
+
+#text {
+  margin-top: 137px;
+  width: 554px;
+  float: right;
+  direction: rtl;
+  text-align: justify;
+  font: normal 8pt 'tahoma';
+  color: #484f55;
+  min-height: 500px;
+  height: expression(this.scrollHeight > 500 ? 'auto' : '500px');
+}
+
+#text #title {
+  font: bold 11pt 'times new roman';
+  color: #212121;
+}
+
+#text #title a {
+  color: #212121;
+  text-decoration: none;
+}
+
+#text #body {
+  line-height: 2em;
+  padding: 10px 0;
+  margin-bottom: 50px;
+  color: #222;
+}
+
+#text #author {
+  padding: 10px 0;
+  background: url('images/authordotted.gif') bottom center no-repeat;
+}
+
+#text #author a {
+  color: #7d8288;
+  text-decoration: none;
+}
+
+#text #body a {
+  color: #f60;
+  text-decoration: none;
+}
+
+.comment {
+  background: url('images/comment.gif') top center no-repeat;
+  position: relative;
+  margin: 20px 0;
+  width: 550px;
+}
+
+.comment .author {
+  position: absolute;
+  top: 8px;
+  right: 15px;
+  color: #7d8288;
+}
+
+.comment .author a {
+  color: #7d8288;
+  text-decoration: none;
+}
+
+.comment .date {
+  position: absolute;
+  top: 8px;
+  left: 15px;
+  color: #7d8288;
+}
+
+.comment .body {
+  padding: 35px 5px 0 5px;
+}
+
+/*
+ * [/text]
+ */
+
+/*
+ * [comment]
+ */
+
+#comment {
+  margin-top: 137px;
+  width: 218px;
+  float: left;
+  padding-left: 14px;
+}
+
+#comment #c {
+  background: url('images/comments.gif') no-repeat;
+  width: 85px;
+  height: 13px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+#comment input {
+  border: 0 none;
+  font: normal 8pt 'tahoma';
+  color: #a9a9a9;
+  background: transparent;
+  width: 200px;
+  padding: 0 9px;
+}
+
+#comment #name, #comment #email, #comment #url {
+  background: url('images/commenttextbox.gif') no-repeat;
+  width: 218px;
+  height: 22px;
+  padding-top: 3px;
+}
+
+#comment textarea {
+  border: 0 none;
+  font: normal 8pt 'tahoma';
+  color: #a9a9a9;
+  background: transparent;
+  width: 200px;
+  height: 128px;
+  padding: 4px 9px;
+  scrollbar-face-color: #fafafa;
+  scrollbar-arrow-color: #a9a9a9;
+  scrollbar-track-color: #fafafa;
+  scrollbar-shadow-color: #fafafa;
+  scrollbar-highlight-color: #fafafa;
+  scrollbar-3dlight-color: #fafafa;
+  scrollbar-darkshadow-color: #fafafa;
+}
+
+#comment #message {
+  background: url('images/commenttextarea.gif') no-repeat;
+}
+
+p#approved {
+  font: normal 8pt 'tahoma';
+  color: #a9a9a9;
+  text-align: justify;
+  direction: rtl;
+  padding: 0 39px;
+}
+
+#comment #send {
+  width: 46px;
+  height: 22px;
+  font-size: 1pt;
+  margin-top: 5px;
+  background: url('images/commentsend.gif') no-repeat;
+}
+
+#comment #send input {
+  width: 46px;
+  height: 22px;
+  font-size: 0;
+  padding: 0;
+  cursor: hand;
+}
+
+/*
+ * [/comment]
+ */
+
+/*
+ * [individual-copyright]
+ */
+
+#copyright {
+  clear: both;
+  margin-top: 20px;
+  background: #036;
+  position: relative;
+}
+
+#copyright #ultrapain, #copyright #newwindow {
+  position: absolute;
+  top: 0;
+}
+
+/*
+ * [/individual-copyright]
+ */
+
+/*
+ * [archive]
+ */
+
+#archivegroup {
+  position: absolute;
+  top: 100px;	
+}
+
+#archivegroup form {
+  width: 400px;
+  text-align: center;
+}
+
+#archivegroup select {
+  font: normal 8pt 'tahoma';
+  width: 250px;
+  direction: rtl;
+}
+
+#archivegroup input {
+  font: normal 8pt 'tahoma';
+  padding: 0 2px;
+}
+
+/*
+ * [/archive]
+ */
+
+.en {
+  direction: ltr;
+}
+
+/*
+ * [search]
+ */
+
+#text #body .searchresult a {
+  color: #333;
+}
+
+#title span {
+  color: #555;
+}
+
+/*
+ * [/search]
+ */
+
+/*
+ * [newsspecial]
+ */
+
+#newsspecial {
+  position: absolute;
+  top: 118px;
+  left: 748px;
+  width: 84px;
+  height: 22px;
+  background: url('http://www.zanestan.org/herland/special-news.gif') no-repeat;
+}
+
+#newsboxspecial {
+  position: absolute;
+  top: 138px;
+  left: 627px;
+  width: 205px;
+  height: 82px;
+  background: url('http://www.zanestan.org/herland/news-s-box.gif');
+  font: normal 8pt 'tahoma';
+  direction: rtl;
+  }
+
+#newsboxspecial div {
+  color: #fffffd;
+}
+
+#newsboxspecial ul {
+  list-style-image: url('images/newsbullet.gif');
+  margin: 0;
+  padding: 0;
+  padding-right: 20px;
+}
+
+#newsboxspecial li {
+  margin-bottom: 5px;
+}
+
+#newsboxspecial li a {
+  color: #cbcdc8;
+  text-decoration: none;
+}
+
+#Scroller3special {
+  position: relative;
+  width: 205px;
+  height: 60px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.Scroller3-Containerspecial {
+  position: absolute;
+  text-align: justify;
+}
+
+#Scrollbar3-Containerspecial {
+  position: absolute;
+  top: 200px;
+  left: 837px;
+}
+
+.Scrollbar3-Trackspecial {
+  width: 5px;
+  height: 60px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.Scrollbar3-Handlespecial {
+  position: absolute;
+  width: 5px;
+  height: 23px;
+}
+
+/*
+ * [/newsspecial]
+ */
+
+#content {
+  margin-bottom: 50px;
+}
+
+.title a {
+  font: bold 11pt 'times new roman';
+  color: #333;
+  text-decoration: none;
+}
+
+#content .title {
+  font: bold 11pt 'times new roman';
+  margin-bottom: 5px;
+}
+
+#content .title .description {
+  font: normal 8pt 'tahoma';
+  color: #7d8288;
+}
+
+#content .title .description a {
+  color: #7d8288;
+  text-decoration: none;
+  font: normal 8pt 'tahoma';
+}

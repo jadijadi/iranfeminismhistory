@@ -1,0 +1,18 @@
+#blackbar, #zanestan, #home, #about, #archive, #seperator, #contact, #copyright {
+  display: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#text {
+  width: 650px;
+  font: normal 8pt/1.2em 'tahoma';
+  color: #333;
+  position: absolute;;
+  top: 0;
+  page-break-after: always;
+  page-break-before: always;
+}

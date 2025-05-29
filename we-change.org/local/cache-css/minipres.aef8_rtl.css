@@ -1,0 +1,164 @@
+/* Correction des styles par defaut
+---------------------------------------------- */
+html { font-size: 100%; } /* Cf.: http://pompage.net/pompe/definir-des-tailles-de-polices-en-CSS/ */
+body { font: .75em/1.5em Verdana, Geneva, sans-serif; color: #222; }
+*, *:before, *:after { box-sizing: border-box; }
+input, textarea, select { font-size: 100%; font-family: inherit; }
+
+h1 { margin: 0 auto 1.5em auto; font-size: 1.3em; font-weight: bold; color: #db1762; text-align: center; }
+h2 { margin: 0 0 1.5em 0; font-size: 1.2em; font-weight: normal; }
+h3 { margin: 0 auto 1.5em auto; font-size: 1em; font-weight: bold; }
+p  { display: block; margin: 0 0 1.5em 0; }
+
+img, .spip_logo { margin: 0; padding: 0; border: 0; }
+strong, b { font-weight: bold; }
+em, i { font-style: italic; }
+small,.small { font-size: .9em; }
+ul.spip { list-style: square; margin-bottom:1.5em;}
+ul.spip ul { list-style: circle; }
+ol.spip { list-style: decimal; margin-bottom:1.5em;}
+ul.spip li, ol.spip li {margin-right:50px;}
+ul.spip li li, ol.spip li li {margin-right:25px}
+
+
+
+/* LAYOUT / Disposition a l'ecran
+---------------------------------------------- */
+html, body { height: 100%; }
+#minipres { position: relative; margin: 0 auto; background: #fff repeat; }
+.quitter_fenetre { position: absolute; left: 1.5em; top: 1.5em; }
+.quitter_fenetre a { display: block; width: 1.5em; height: 1.5em; background: url('http://debian11.local/prive/themes/spip/images/fermer-16.png') no-repeat left center; color: #fff; text-indent: -999em; }
+
+@media (min-width: 640px) {
+	body { display: flex; padding: 2em; }
+	#minipres { margin: auto; width: 580px;border: 1px solid #DB1762;border-radius: 8px;padding: 2em 2em 1.5em 2em;overflow: hidden;}
+	#minipres h1 {margin-top: -2em;margin-right: -2em;margin-left: -2em;padding: 0.8em;font-size: 1.1em;color: white;background: #DB1762;}
+}
+@media (max-width: 640px) {
+	body {padding: 1.5em;}
+	#minipres {width: auto;max-width: 25em;background: transparent;}
+	#etapes, #infos_etapes {display: none;}
+}
+
+@media screen and (max-width:640px) and (orientation: landscape) {
+	body { -webkit-text-size-adjust: 70%; }
+}
+
+/* Formulaires
+---------------------------------------------- */
+
+.formo,
+input.text,
+input.password, select { display: block; margin-bottom: 0.5em; background: #F8F8F9 center bottom; padding: 4px; border: 1px solid #BEBEBF; border-radius: 3px; font-size: 1.2em; width: 100%; height: 2.5em; }
+button, input[type=submit] { color: white;background: #DB1762;border: none;border-radius: 4px;padding: 8px 1em;font-size: 1.2em;font-weight: bold;}
+button:hover, input[type=submit]:hover,
+button:focus, input[type=submit]:focus { background: #881644; }
+
+.formulaire_spip { clear: both; margin-bottom: 1.5em; padding: 0; background: none; border: 0; text-align: right; }
+.formulaire_spip form { margin: 0; padding: 0; }
+.formulaire_spip fieldset,
+fieldset,
+.fieldset { margin: 0 0 1em 0; padding: 0 1em 0.5em 1em; background: #FFFFFF; border: 1px solid #CCCCCC; border-radius: 4px; text-align: right; }
+legend { font-weight: bold; color: #333; padding: 0.5em; }  /* Preciser la couleur des legend pour IE/Win */
+label {display: inline-block; margin-bottom: .5em;}
+input[type=radio],input[type=checkbox] {display: inline-block; margin-left: 0.75em; margin-bottom: .5em;}
+
+.formulaire_spip fieldset ul { margin: 0; padding: 0; list-style: none; }
+.formulaire_spip fieldset ul li { clear: both; margin: 0 0 1.5em; padding: 0; }
+.formulaire_spip fieldset ul li label,
+.formulaire_spip fieldset ul li .erreur_message,
+.formulaire_spip fieldset ul li .details { display: block; width: auto; margin: 0; }
+
+.formulaire_spip .choix label { display: inline; font-weight: normal; }
+.formulaire_spip .choix input.radio,
+.formulaire_spip .choix input.checkbox { width: auto; }
+
+.boutons { margin-top: 1.5em; text-align: left; }
+
+/* erreur */
+.formulaire_spip fieldset ul li.erreur {}
+.formulaire_spip fieldset ul li.erreur input { border-color: red; background-color: #fcc; }
+.reponse_formulaire,
+.erreur_message { font-weight: bold; color: red; }
+.reponse_formulaire.reponse_formulaire_ok {border: 2px solid #C6D880;font-weight: normal;padding: 0.8em;margin-bottom: 1.5em;color: #264409;background-color: #E6EFC2;}
+
+/* Habillage (en vrac)
+---------------------------------------------- */
+
+.petit-centre { width: 300px; margin: auto; margin-bottom: 1.5em; text-align: center; }
+.petit-centre .logo { margin-bottom: 1.5em; }
+
+.toile_foncee { background: #777; }
+
+#etapes { display: block; position: absolute; top: 10px; right: 10px; }
+#etapes span { display: block; margin-top: -0.50em; padding: 12px 14px; margin-bottom: 5px; }
+#etapes span em { font-size: 2em; font-weight: bold; }
+#etapes span span { position: absolute; top: -100px; right: -100px; }
+#etapes span.ok { background: url('http://debian11.local/prive/themes/spip/images/etape-ok.gif') center no-repeat; }
+#etapes span.encours { background: url('http://debian11.local/prive/themes/spip/images/etape-encours.gif') center no-repeat; }
+#etapes span.todo { background: url('http://debian11.local/prive/themes/spip/images/etape-todo.gif') center no-repeat; }
+
+#infos_etapes { display: flex; height: 63px; overflow: hidden; margin: 0; padding: 0; padding-right: 10px; background: #8c8c8c url('http://debian11.local/prive/themes/spip/images/degrade-etapes-clair-right.gif') no-repeat left top; text-align: right; list-style: none; }
+#infos_etapes.infos_etape_4 { background-image: url('http://debian11.local/prive/themes/spip/images/degrade-etapes-rose-right.gif'); background-color: #db1762; }
+#infos_etapes li { max-width: 160px; margin-right: -28px; padding-right: 29px; background: url('http://debian11.local/prive/themes/spip/images/degrade-etapes-fonce-right.gif') no-repeat right top; color: #555; text-align: right; font-size: .9em; line-height: 1.05em; }
+#infos_etapes li .fond { height: 69px; padding-left: 25px; padding-top: 10px; background: url('http://debian11.local/prive/themes/spip/images/degrade-etapes-fonce-right.gif') no-repeat -2em top; }
+#infos_etapes li em {float:right;position:absolute;top:-1000px;}
+#infos_etapes li span.numero_etape { float: right; display: block; height: 50px; margin-right: -10px; padding: 7px 3px 0 3px; font-weight: bold; font-size: 3em; }
+#infos_etapes li.on { background-image: url('http://debian11.local/prive/themes/spip/images/degrade-etapes-rose-right.gif'); color: #fff; font-weight: bold; }
+#infos_etapes li.on .fond { background-color: #db1762; background-image:  url('http://debian11.local/prive/themes/spip/images/degrade-etapes-rose-right.gif'); }
+#infos_etapes li.erreur { background-image: url('http://debian11.local/prive/themes/spip/images/degrade-etapes-rouge-right.gif'); }
+#infos_etapes li.erreur .fond { background-color: #ff6868; background-image: url('http://debian11.local/prive/themes/spip/images/degrade-etapes-rouge-right.gif'); }
+#infos_etapes li.valides { color: white; }
+#infos_etapes li.prochains { background-image: url('http://debian11.local/prive/themes/spip/images/degrade-etapes-clair-right.gif'); }
+#infos_etapes li.prochains .fond { background-color: #dbdbdb;background-image: url('http://debian11.local/prive/themes/spip/images/degrade-etapes-clair-right.gif'); }
+
+/* installation des plugins */
+.error,
+.success,
+.notice {border:2px solid; font-weight: normal;padding:0.8em;margin-bottom:1.5em;}
+.success {color: #264409;border-color: #c6d880;background-color:#e6efc2;}
+.error {color: #8a1f11;border-color: #fbc2c4;background-color:#fbe3e4;}
+.notice {color: #514721;border-color: #ffd324;background-color:#fff6bf;}
+
+.install-plugins {position:relative;margin-bottom: 0;}
+.install-plugins.success + .install-plugins.success {margin-top: 0;border-top: 0;}
+.install-plugins.error + .install-plugins.error {margin-top: 0;border-top: 0;}
+.install-plugins .result {display:block;position:absolute;top:0.8em;left:0.8em;font-weight:bold;}
+.install-plugins .success {display: none;} /* ne pas afficher les installations ok mais seulement les echecs */
+
+/* Page de login
+---------------------------------------------- */
+.page_login { text-align: center; }
+@media (min-width: 640px) {
+	.page_login #minipres {width: 30em;}
+}
+.page_login #minipres h3 {text-align: center;}
+.page_login .formulaire_menu_lang {text-align: center;}
+.page_login .formulaire_menu_lang label {display: none;}
+.page_login .formulaire_menu_lang select {display: inline;}
+.page_login .formulaire_menu_lang .boutons,
+.page_login .formulaire_menu_lang input.submit {display: inline;}
+.page_login fieldset { clear: both; margin: 0; padding: 0; background: none; border: 0;}
+.page_login fieldset legend { display: none; }
+.page_login .editer-groupe { width: 100%; }
+.page_login .editer_password .details { margin-top: 0.5em; }
+.page_login .editer_password p { margin-bottom: 0; }
+.page_login .boutons { margin: 1.5em auto 1.5em; text-align: center; }
+.page_login .retour { clear: both; margin: 0 0 1.5em 0; }
+.page_login .generator { margin: 0; }
+#pass_securise img { display: none; }
+.editer_password p { margin-top: 1em; }
+/* logo de l'auteur */
+.page_login .editer_login label { display: block; }
+.page_login #spip_logo_auteur { display: inline-block; vertical-align: middle; }
+.page_login #spip_logo_auteur img { border-radius: 50%; }
+.page_login input[name=var_login]:not(:last-child) { display: inline-block; /* fallback */ width: 82%;  width: calc(100% - 54px); }
+
+/* Couleurs des liens
+---------------------------------------------- */
+a { color: #db1762; text-decoration: none; }
+a:focus,
+a:hover { color: #922149; text-decoration: underline; }
+a:active { color: #922149; }
+
+/* end */
